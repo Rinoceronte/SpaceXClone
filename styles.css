@@ -1,0 +1,198 @@
+
+#one{
+    background-image: url("https://mk0spaceflightnoa02a.kinstacdn.com/wp-content/uploads/2020/11/f9_gpsstreak.jpg");
+    background-size: cover;
+    /* height: 100vh;
+    width: 100%; */
+    display: flex;
+}
+
+#two {
+    height: 100vh;
+    width: 100%;
+    background-color: #01083e;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+/* #shuttles{
+    justify-self: center;
+}
+
+#nav{
+    justify-self: flex-end;
+}
+
+#content{
+    align-self: center;
+} */
+
+#three {
+    background-image: url("https://i.insider.com/5fac51bd144744001858141b?width=700");
+    background-size: cover;
+    display:flex;
+}
+
+#four {
+    background-image: url("https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2020/05/SpaceX.jpg?w=640&h=360&crop=1");
+    background-size: cover;
+    display:flex;
+}
+
+#five {
+    background-image: url("https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg?w=600");
+    background-size: cover;
+    display: flex;
+    /* justify-content: space-around;
+    align-items: flex-start; */
+}
+
+#six {
+    background-image: url("https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/EaQ290gUwAIzrGK_2000x.jpg?v=1598312368");
+    background-size: cover;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.full {
+    width: 100%;
+    height: 100vh;
+}
+
+.half {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.col-half{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+
+
+/* .quarter{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+/* #fourth .quarter{
+    justify-content: center;
+    align-self: space-between;
+} */
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#two video{
+    z-index: -1;
+}
+
+#learnMore {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#learnMore a{
+    align-self: center;
+    justify-self: center;
+}
+
+#learnMore a:link, a:visited{
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#learnMore a:hover, a:active{
+    background-color: white;
+    color: black;
+}
+
+a{
+    text-decoration:none;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    top: 30px;
+    position: absolute;
+    top: 0;
+    margin: 0;
+}
+
+#spacing{
+    width: 10%;
+}
+#nav{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#end-links{
+    width: 30%;
+    margin-top:10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#end-links a{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#button div{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+*{
+    color: white;
+}
+
